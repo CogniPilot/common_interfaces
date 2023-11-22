@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+menuconfig COMMON_INTERFACES
+        bool "COMMON_INTERFACES support"
+        help
+          This option enables COMMON_INTERFACES
+
+if COMMON_INTERFACES
+
+endif
+
